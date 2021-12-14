@@ -4,11 +4,6 @@ import org.junit.jupiter.api.Test;
 class TestCreditCalculator {
     CreditCalculator creditCalculator = new CreditCalculator();
 
-    static final int creditAmount = 300000; //общая сумма кредита
-    static final double interestRate = 15;  //процентная ставка
-    static final int monthAmount = 18;  //количество месяцев
-    static final double monthInterestRate = interestRate / 12 / 100;
-
     @Test
     public void calcOfMonthlyPayment() {
         double result = 18715.0;
